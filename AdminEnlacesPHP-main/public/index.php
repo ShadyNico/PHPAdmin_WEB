@@ -2,7 +2,6 @@
 require __DIR__ . '/../framework/Database.php';
 require __DIR__ . '/../framework/SessionManager.php';
 require __DIR__ . '/../framework/Validator.php';
-require __DIR__ . '/../app/middleware/Authenticated.php';
 
 SessionManager::start();
 
